@@ -1,0 +1,69 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f4f8; /* Light background for contrast */
+  font-family: 'Arial', sans-serif; /* Change to a modern font */
+}
+
+.about-card {
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3b82f6; /* Blue color */
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #1e293b; /* Darker color for emphasis */
+}
+
+.about-description {
+  font-size: 1.2rem;
+  color: #4b5563; /* Gray color */
+  margin-bottom: 30px;
+}
+
+.about-subtitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #3b82f6; /* Blue color */
+  margin: 20px 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #3b82f6; /* Blue color */
+}
+
+.features-list, .team-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left; /* Align text to the left */
+}
+
+.features-list li, .team-list li {
+  font-size: 1.1rem;
+  color: #4b5563; /* Gray color */
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.check-icon {
+  color: #22c55e; /* Green color for check icons */
+  margin-right: 10px;
+} 

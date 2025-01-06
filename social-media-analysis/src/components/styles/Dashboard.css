@@ -1,0 +1,42 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+ 
+}
+
+.chart-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.chart {
+  flex: 1 1 calc(33.333% - 20px); /* 3 charts in a row */
+  background-color: white;
+  padding: 16px 16px ;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 350px; /* Fixed height */
+  margin: 10px 0;
+}
+
+.full-width-chart {
+  background-color: white;
+  
+  padding: 16px;
+  margin-top: 20px;
+  height: 450px; /* Fixed height */
+  
+}
+
+@media (max-width: 768px) {
+  .chart {
+    flex: 1 1 100%; /* Stack charts on mobile */
+  }
+} 
+
+
+.title {
+    margin: -5px;
+}
