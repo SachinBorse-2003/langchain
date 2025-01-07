@@ -18,7 +18,7 @@ export default function ChatbotView() {
     setIsLoading(true);
 
     try {
-      const { data } = await axios.post("http://127.0.0.1:8000/chatbot", {
+      const { data } = await axios.post("https://backend.neusec.in/chatbot", {
         message: message,
       });
       setChatHistory((prev) => [...prev, { type: "bot", content: data.result }]);

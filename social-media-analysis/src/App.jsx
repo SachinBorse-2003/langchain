@@ -13,7 +13,7 @@ export default function App() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const { data } = await axios.get("http://127.0.0.1:8000/chart-data");
+        const { data } = await axios.get("https://backend.neusec.in/chart-data");
         setData(data);
       } catch (error) {
         console.error("Error fetching data:", error);
